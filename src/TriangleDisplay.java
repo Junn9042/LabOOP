@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TraingleDisplay {
+public class TriangleDisplay {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter n: ");
@@ -14,7 +14,7 @@ public class TraingleDisplay {
                 if (j - i <= n) System.out.print("*");
                 else System.out.print(" ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }
